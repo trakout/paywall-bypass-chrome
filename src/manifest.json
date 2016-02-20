@@ -1,0 +1,30 @@
+{
+  "name": "Paywall Bypass",
+  "version": "0.0.1",
+  "description": "Bypass Paywalls on sites like WSJ, NYTimes, and Forbes. A no-nonsense, lightweight extension.",
+  "icons": {
+    "16": "./icons/icon256.png",
+    "48": "./icons/icon256.png",
+    "128": "./icons/icon256.png",
+    "256": "./icons/icon256.png"
+  },
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "http://www.ft.com/*",
+                  "http://www.wsj.com/*",
+                  "https://www.wsj.com/*",
+                  "http://www.economist.com/*",
+                  "http://www.nytimes.com/*",
+                  "https://hbr.org/*",
+                  "http://www.newyorker.com/*",
+                  "http://www.forbes.com/*",
+                  "http://online.barrons.com/*",
+                  "http://www.barrons.com/*",
+                  "http://www.investingdaily.com/*",
+                  "http://realmoney.thestreet.com/*",
+                  "http://www.washingtonpost.com/*"
+                  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}

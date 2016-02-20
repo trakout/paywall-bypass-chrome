@@ -1,0 +1,7 @@
+*.pem
+*.crx
+src/icons
+*.DS_Store
+*.psd
+*.zip
+resources
