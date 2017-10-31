@@ -1,8 +1,8 @@
 var ALLOW_COOKIES = ["nytimes", "ft.com"]
 
 function changeRefer(details) {
-  foundReferer = false;
-  foundUA = false
+  var foundReferer = false;
+  var foundUA = false;
 
   var reqHeaders = details.requestHeaders.filter(function(header) {
     // block cookies by default
